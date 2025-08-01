@@ -1,0 +1,117 @@
+# EvalScope 评估配置文件
+# 用于配置模型评估的各种参数
+
+# 服务配置
+service:
+  host: "0.0.0.0"
+  port: 8801
+  model_name: "qwen2.5"
+  timeout: 300
+  gpu_memory_utilization: 0.8
+  max_model_len: 4096
+  trust_remote_code: true
+
+# 模型配置
+model:
+  path: "/root/autodl-tmp/stage5/models/Qwen/Qwen2-7B-Instruct"
+  type: "qwen2"
+  
+# 生成配置
+generation:
+  max_tokens: 2048
+  temperature: 0.0
+  top_p: 1.0
+  top_k: -1
+  repetition_penalty: 1.0
+  
+# 评估配置
+evaluation:
+  # 工作目录
+  work_dir: "/root/autodl-tmp/stage5/evalscope"
+  
+  # 默认评估设置
+  limit: 10
+  eval_batch_size: 1
+  
+  # 数据集配置
+  datasets:
+    # 数学推理
+    gsm8k:
+      name: "gsm8k"
+      limit: 10
+      description: "小学数学应用题"
+      
+    # 多任务语言理解
+    mmlu:
+      name: "mmlu"
+      limit: 20
+      description: "多任务语言理解评估"
+      
+    # 中文评估
+    ceval:
+      name: "ceval"
+      limit: 20
+      description: "中文综合评估"
+      
+    # 代码生成
+    humaneval:
+      name: "humaneval"
+      limit: 10
+      description: "代码生成评估"
+      
+    # 阅读理解
+    race:
+      name: "race"
+      limit: 15
+      description: "阅读理解评估"
+
+# 预设评估套件
+suites:
+  # 快速评估
+  quick:
+    datasets: ["gsm8k"]
+    limit: 5
+    description: "快速评估套件"
+    
+  # 数学评估
+  math:
+    datasets: ["gsm8k"]
+    limit: 50
+    description: "数学推理评估"
+    
+  # 综合评估
+  comprehensive:
+    datasets: ["gsm8k", "mmlu", "ceval"]
+    limit: 30
+    description: "综合能力评估"
+    
+  # 中文评估
+  chinese:
+    datasets: ["ceval"]
+    limit: 50
+    description: "中文能力评估"
+    
+  # 代码评估
+  coding:
+    datasets: ["humaneval"]
+    limit: 20
+    description: "代码生成评估"
+
+# 日志配置
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+# 报告配置
+reporting:
+  # 是否生成详细报告
+  detailed: true
+  
+  # 是否生成图表
+  charts: false
+  
+  # 报告格式
+  formats: ["json", "csv"]
+  
+  # 是否包含错误分析
+  error_analysis: true
