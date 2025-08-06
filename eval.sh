@@ -1,5 +1,5 @@
-MODEL="Qwen2.5-3B-Instruct"
-TOKENIZER="./models/Qwen/Qwen2.5-3B-Instruct"
+MODEL="Qwen2.5-3B-Instruct-awq-w4a16"
+TOKENIZER="./models/Qwen2.5-3B-Instruct-awq-w4a16"
 SWANLAB_API_KEY="EOQCnWdMl5RFgMpUiQpTd"
 NAME=${MODEL}
 evalscope perf \
