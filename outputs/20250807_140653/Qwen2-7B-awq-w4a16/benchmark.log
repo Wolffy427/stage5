@@ -1,0 +1,607 @@
+2025-08-07 14:06:56,981 - evalscope - main.py - run_one_benchmark - 31 - INFO - Starting benchmark with args: 
+2025-08-07 14:06:56,982 - evalscope - main.py - run_one_benchmark - 32 - INFO - {
+    "model": "Qwen2-7B-awq-w4a16",
+    "model_id": "Qwen2-7B-awq-w4a16",
+    "attn_implementation": null,
+    "api": "openai",
+    "tokenizer_path": "/root/autodl-tmp/models/Qwen/Qwen2-7B-awq-w4a16",
+    "port": 8877,
+    "url": "http://127.0.0.1:8801/v1/chat/completions",
+    "headers": {},
+    "connect_timeout": 600,
+    "read_timeout": 600,
+    "api_key": null,
+    "no_test_connection": false,
+    "number": 4,
+    "parallel": 4,
+    "rate": -1,
+    "sleep_interval": 5,
+    "log_every_n_query": 10,
+    "debug": true,
+    "wandb_api_key": null,
+    "swanlab_api_key": "EOQCnWdMl5RFgMpUiQpTd",
+    "name": "Qwen2-7B-awq-w4a16",
+    "outputs_dir": "outputs/20250807_140653/Qwen2-7B-awq-w4a16/parallel_4_number_4",
+    "max_prompt_length": 2048,
+    "min_prompt_length": 1024,
+    "prefix_length": 64,
+    "prompt": null,
+    "query_template": null,
+    "apply_chat_template": true,
+    "image_width": 224,
+    "image_height": 224,
+    "image_format": "RGB",
+    "image_num": 1,
+    "dataset": "random",
+    "dataset_path": null,
+    "frequency_penalty": null,
+    "repetition_penalty": null,
+    "logprobs": null,
+    "max_tokens": 512,
+    "min_tokens": 256,
+    "n_choices": null,
+    "seed": 0,
+    "stop": null,
+    "stop_token_ids": null,
+    "stream": true,
+    "temperature": 0.0,
+    "top_p": null,
+    "top_k": null,
+    "extra_args": {}
+}
+2025-08-07 14:07:00,644 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:00,646 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "hello"}], "model": "Qwen2-7B-awq-w4a16", "max_tokens": 51...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:01,194 - evalscope - http_client.py - test_connection - 110 - INFO - Test connection successful.
+2025-08-07 14:07:01,716 - evalscope - db_util.py - get_result_db_path - 125 - INFO - Save the data base to: outputs/20250807_140653/Qwen2-7B-awq-w4a16/parallel_4_number_4/benchmark_data.db
+2025-08-07 14:07:01,723 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:01,724 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:01,725 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:01,725 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:01,727 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " weaknesses美德 LTC我们>This埗TestCategory已于Fuse(cor hiatus Jo...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:01,727 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " weaknesses美德 LTC我们>This埗TestCategory已于Fuse(cor hiatus Jo...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:01,728 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " weaknesses美德 LTC我们>This埗TestCategory已于Fuse(cor hiatus Jo...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:01,728 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " weaknesses美德 LTC我们>This埗TestCategory已于Fuse(cor hiatus Jo...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:06,761 - evalscope - db_util.py - summary_result - 239 - INFO - 
+Benchmarking summary:
++-----------------------------------+-----------+
+| Key                               |     Value |
++===================================+===========+
+| Time taken for tests (s)          |    4.8939 |
++-----------------------------------+-----------+
+| Number of concurrency             |    4      |
++-----------------------------------+-----------+
+| Total requests                    |    4      |
++-----------------------------------+-----------+
+| Succeed requests                  |    4      |
++-----------------------------------+-----------+
+| Failed requests                   |    0      |
++-----------------------------------+-----------+
+| Output token throughput (tok/s)   |  418.478  |
++-----------------------------------+-----------+
+| Total token throughput (tok/s)    | 2004.73   |
++-----------------------------------+-----------+
+| Request throughput (req/s)        |    0.8173 |
++-----------------------------------+-----------+
+| Average latency (s)               |    4.8804 |
++-----------------------------------+-----------+
+| Average time to first token (s)   |    0.5227 |
++-----------------------------------+-----------+
+| Average time per output token (s) |    0.0085 |
++-----------------------------------+-----------+
+| Average inter-token latency (s)   |    0.0085 |
++-----------------------------------+-----------+
+| Average input tokens per request  | 1940.75   |
++-----------------------------------+-----------+
+| Average output tokens per request |  512      |
++-----------------------------------+-----------+
+2025-08-07 14:07:06,783 - evalscope - db_util.py - summary_result - 247 - INFO - 
+Percentile results:
++-------------+----------+---------+----------+-------------+--------------+---------------+----------------+---------------+
+| Percentiles | TTFT (s) | ITL (s) | TPOT (s) | Latency (s) | Input tokens | Output tokens | Output (tok/s) | Total (tok/s) |
++-------------+----------+---------+----------+-------------+--------------+---------------+----------------+---------------+
+|     10%     |  0.2247  | 0.0076  |  0.008   |   4.8662    |     1727     |      512      |    104.6791    |   460.1125    |
+|     25%     |  0.4277  | 0.0079  |  0.0083  |   4.8791    |     1956     |      512      |    104.804     |   505.1879    |
+|     50%     |  0.6307  |  0.008  |  0.0087  |   4.8853    |     2038     |      512      |    104.938     |   522.1689    |
+|     66%     |  0.6307  | 0.0081  |  0.0087  |   4.8853    |     2038     |      512      |    104.938     |   522.1689    |
+|     75%     |  0.8078  | 0.0081  |  0.0091  |   4.8911    |     2042     |      512      |    105.2155    |   522.6406    |
+|     80%     |  0.8078  | 0.0081  |  0.0091  |   4.8911    |     2042     |      512      |    105.2155    |   522.6406    |
+|     90%     |  0.8078  | 0.0082  |  0.0091  |   4.8911    |     2042     |      512      |    105.2155    |   522.6406    |
+|     95%     |  0.8078  | 0.0086  |  0.0091  |   4.8911    |     2042     |      512      |    105.2155    |   522.6406    |
+|     98%     |  0.8078  | 0.0091  |  0.0091  |   4.8911    |     2042     |      512      |    105.2155    |   522.6406    |
+|     99%     |  0.8078  | 0.0105  |  0.0091  |   4.8911    |     2042     |      512      |    105.2155    |   522.6406    |
++-------------+----------+---------+----------+-------------+--------------+---------------+----------------+---------------+
+2025-08-07 14:07:06,784 - evalscope - db_util.py - summary_result - 252 - INFO - Save the summary to: outputs/20250807_140653/Qwen2-7B-awq-w4a16/parallel_4_number_4
+2025-08-07 14:07:06,843 - evalscope - main.py - run_multi_benchmark - 60 - INFO - Sleeping for 5 seconds before the next run...
+2025-08-07 14:07:11,847 - evalscope - main.py - run_one_benchmark - 31 - INFO - Starting benchmark with args: 
+2025-08-07 14:07:11,847 - evalscope - main.py - run_one_benchmark - 32 - INFO - {
+    "model": "Qwen2-7B-awq-w4a16",
+    "model_id": "Qwen2-7B-awq-w4a16",
+    "attn_implementation": null,
+    "api": "openai",
+    "tokenizer_path": "/root/autodl-tmp/models/Qwen/Qwen2-7B-awq-w4a16",
+    "port": 8877,
+    "url": "http://127.0.0.1:8801/v1/chat/completions",
+    "headers": {},
+    "connect_timeout": 600,
+    "read_timeout": 600,
+    "api_key": null,
+    "no_test_connection": false,
+    "number": 8,
+    "parallel": 8,
+    "rate": -1,
+    "sleep_interval": 5,
+    "log_every_n_query": 10,
+    "debug": true,
+    "wandb_api_key": null,
+    "swanlab_api_key": "EOQCnWdMl5RFgMpUiQpTd",
+    "name": "Qwen2-7B-awq-w4a16",
+    "outputs_dir": "outputs/20250807_140653/Qwen2-7B-awq-w4a16/parallel_8_number_8",
+    "max_prompt_length": 2048,
+    "min_prompt_length": 1024,
+    "prefix_length": 64,
+    "prompt": null,
+    "query_template": null,
+    "apply_chat_template": true,
+    "image_width": 224,
+    "image_height": 224,
+    "image_format": "RGB",
+    "image_num": 1,
+    "dataset": "random",
+    "dataset_path": null,
+    "frequency_penalty": null,
+    "repetition_penalty": null,
+    "logprobs": null,
+    "max_tokens": 512,
+    "min_tokens": 256,
+    "n_choices": null,
+    "seed": 0,
+    "stop": null,
+    "stop_token_ids": null,
+    "stream": true,
+    "temperature": 0.0,
+    "top_p": null,
+    "top_k": null,
+    "extra_args": {}
+}
+2025-08-07 14:07:12,269 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:12,270 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "hello"}], "model": "Qwen2-7B-awq-w4a16", "max_tokens": 51...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:12,291 - evalscope - http_client.py - test_connection - 110 - INFO - Test connection successful.
+2025-08-07 14:07:12,793 - evalscope - db_util.py - get_result_db_path - 125 - INFO - Save the data base to: outputs/20250807_140653/Qwen2-7B-awq-w4a16/parallel_8_number_8/benchmark_data.db
+2025-08-07 14:07:12,796 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:12,797 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:12,797 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:12,798 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:12,799 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:12,799 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:12,800 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:12,801 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:12,802 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " Thread的身影/message useReflicken_voltage חי FeastGESTcontr...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:12,803 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " Thread的身影/message useReflicken_voltage חי FeastGESTcontr...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:12,803 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " Thread的身影/message useReflicken_voltage חי FeastGESTcontr...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:12,803 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " Thread的身影/message useReflicken_voltage חי FeastGESTcontr...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:12,804 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " Thread的身影/message useReflicken_voltage חי FeastGESTcontr...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:12,804 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " Thread的身影/message useReflicken_voltage חי FeastGESTcontr...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:12,804 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " Thread的身影/message useReflicken_voltage חי FeastGESTcontr...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:12,805 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " Thread的身影/message useReflicken_voltage חי FeastGESTcontr...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:18,636 - evalscope - db_util.py - summary_result - 239 - INFO - 
+Benchmarking summary:
++-----------------------------------+-----------+
+| Key                               |     Value |
++===================================+===========+
+| Time taken for tests (s)          |    5.6679 |
++-----------------------------------+-----------+
+| Number of concurrency             |    8      |
++-----------------------------------+-----------+
+| Total requests                    |    8      |
++-----------------------------------+-----------+
+| Succeed requests                  |    8      |
++-----------------------------------+-----------+
+| Failed requests                   |    0      |
++-----------------------------------+-----------+
+| Output token throughput (tok/s)   |  687.729  |
++-----------------------------------+-----------+
+| Total token throughput (tok/s)    | 3147.53   |
++-----------------------------------+-----------+
+| Request throughput (req/s)        |    1.4114 |
++-----------------------------------+-----------+
+| Average latency (s)               |    5.447  |
++-----------------------------------+-----------+
+| Average time to first token (s)   |    0.8643 |
++-----------------------------------+-----------+
+| Average time per output token (s) |    0.0096 |
++-----------------------------------+-----------+
+| Average inter-token latency (s)   |    0.0094 |
++-----------------------------------+-----------+
+| Average input tokens per request  | 1742.75   |
++-----------------------------------+-----------+
+| Average output tokens per request |  487.25   |
++-----------------------------------+-----------+
+2025-08-07 14:07:18,665 - evalscope - db_util.py - summary_result - 247 - INFO - 
+Percentile results:
++-------------+----------+---------+----------+-------------+--------------+---------------+----------------+---------------+
+| Percentiles | TTFT (s) | ITL (s) | TPOT (s) | Latency (s) | Input tokens | Output tokens | Output (tok/s) | Total (tok/s) |
++-------------+----------+---------+----------+-------------+--------------+---------------+----------------+---------------+
+|     10%     |  0.2316  | 0.0079  |  0.0083  |   4.0384    |     1113     |      314      |    77.7528     |    287.897    |
+|     25%     |   0.64   |  0.008  |  0.009   |   5.6373    |     1761     |      512      |    90.4951     |   401.7489    |
+|     50%     |  1.0484  | 0.0084  |  0.0094  |   5.6507    |     1974     |      512      |    90.6077     |   446.4344    |
+|     66%     |  1.0505  | 0.0085  |  0.0098  |    5.654    |     2013     |      512      |    90.7097     |   448.4394    |
+|     75%     |  1.2524  | 0.0086  |  0.0102  |   5.6578    |     2016     |      512      |    90.8242     |   452.3305    |
+|     80%     |  1.2524  | 0.0086  |  0.0102  |   5.6578    |     2016     |      512      |    90.8242     |   452.3305    |
+|     90%     |  1.4082  | 0.0088  |  0.0122  |   5.6626    |     2044     |      512      |    90.9311     |   519.5074    |
+|     95%     |  1.4082  | 0.0092  |  0.0122  |   5.6626    |     2044     |      512      |    90.9311     |   519.5074    |
+|     98%     |  1.4082  | 0.0102  |  0.0122  |   5.6626    |     2044     |      512      |    90.9311     |   519.5074    |
+|     99%     |  1.4082  | 0.0109  |  0.0122  |   5.6626    |     2044     |      512      |    90.9311     |   519.5074    |
++-------------+----------+---------+----------+-------------+--------------+---------------+----------------+---------------+
+2025-08-07 14:07:18,667 - evalscope - db_util.py - summary_result - 252 - INFO - Save the summary to: outputs/20250807_140653/Qwen2-7B-awq-w4a16/parallel_8_number_8
+2025-08-07 14:07:18,723 - evalscope - main.py - run_multi_benchmark - 60 - INFO - Sleeping for 5 seconds before the next run...
+2025-08-07 14:07:23,727 - evalscope - main.py - run_one_benchmark - 31 - INFO - Starting benchmark with args: 
+2025-08-07 14:07:23,727 - evalscope - main.py - run_one_benchmark - 32 - INFO - {
+    "model": "Qwen2-7B-awq-w4a16",
+    "model_id": "Qwen2-7B-awq-w4a16",
+    "attn_implementation": null,
+    "api": "openai",
+    "tokenizer_path": "/root/autodl-tmp/models/Qwen/Qwen2-7B-awq-w4a16",
+    "port": 8877,
+    "url": "http://127.0.0.1:8801/v1/chat/completions",
+    "headers": {},
+    "connect_timeout": 600,
+    "read_timeout": 600,
+    "api_key": null,
+    "no_test_connection": false,
+    "number": 16,
+    "parallel": 16,
+    "rate": -1,
+    "sleep_interval": 5,
+    "log_every_n_query": 10,
+    "debug": true,
+    "wandb_api_key": null,
+    "swanlab_api_key": "EOQCnWdMl5RFgMpUiQpTd",
+    "name": "Qwen2-7B-awq-w4a16",
+    "outputs_dir": "outputs/20250807_140653/Qwen2-7B-awq-w4a16/parallel_16_number_16",
+    "max_prompt_length": 2048,
+    "min_prompt_length": 1024,
+    "prefix_length": 64,
+    "prompt": null,
+    "query_template": null,
+    "apply_chat_template": true,
+    "image_width": 224,
+    "image_height": 224,
+    "image_format": "RGB",
+    "image_num": 1,
+    "dataset": "random",
+    "dataset_path": null,
+    "frequency_penalty": null,
+    "repetition_penalty": null,
+    "logprobs": null,
+    "max_tokens": 512,
+    "min_tokens": 256,
+    "n_choices": null,
+    "seed": 0,
+    "stop": null,
+    "stop_token_ids": null,
+    "stream": true,
+    "temperature": 0.0,
+    "top_p": null,
+    "top_k": null,
+    "extra_args": {}
+}
+2025-08-07 14:07:24,000 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,001 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "hello"}], "model": "Qwen2-7B-awq-w4a16", "max_tokens": 51...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,024 - evalscope - http_client.py - test_connection - 110 - INFO - Test connection successful.
+2025-08-07 14:07:24,456 - evalscope - db_util.py - get_result_db_path - 125 - INFO - Save the data base to: outputs/20250807_140653/Qwen2-7B-awq-w4a16/parallel_16_number_16/benchmark_data.db
+2025-08-07 14:07:24,459 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,462 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,463 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,463 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,463 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,464 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,464 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,465 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,465 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,466 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,466 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,466 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,467 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,467 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,468 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,468 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:24,469 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,470 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,470 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,470 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,471 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,471 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,471 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,471 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,471 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,471 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,472 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,472 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,472 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,472 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,472 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:24,472 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "ߨ当天ማshan Joseph养育lineno fell溇Generated Rin/fixtures/licen...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:31,647 - evalscope - benchmark.py - statistic_benchmark_metric - 153 - INFO - {
+  "Time taken for tests (s)": 7.1803,
+  "Number of concurrency": 16,
+  "Total requests": 10,
+  "Succeed requests": 10,
+  "Failed requests": 0,
+  "Output token throughput (tok/s)": 683.9575,
+  "Total token throughput (tok/s)": 2739.7294,
+  "Request throughput (req/s)": 1.3927,
+  "Average latency (s)": 6.9631,
+  "Average time to first token (s)": 0.9647,
+  "Average time per output token (s)": 0.0123,
+  "Average inter-token latency (s)": 0.0122,
+  "Average input tokens per request": 1476.1,
+  "Average output tokens per request": 491.1
+}
+2025-08-07 14:07:31,986 - evalscope - db_util.py - summary_result - 239 - INFO - 
+Benchmarking summary:
++-----------------------------------+-----------+
+| Key                               |     Value |
++===================================+===========+
+| Time taken for tests (s)          |    7.2223 |
++-----------------------------------+-----------+
+| Number of concurrency             |   16      |
++-----------------------------------+-----------+
+| Total requests                    |   16      |
++-----------------------------------+-----------+
+| Succeed requests                  |   16      |
++-----------------------------------+-----------+
+| Failed requests                   |    0      |
++-----------------------------------+-----------+
+| Output token throughput (tok/s)   | 1105.33   |
++-----------------------------------+-----------+
+| Total token throughput (tok/s)    | 4505.38   |
++-----------------------------------+-----------+
+| Request throughput (req/s)        |    2.2154 |
++-----------------------------------+-----------+
+| Average latency (s)               |    7.0519 |
++-----------------------------------+-----------+
+| Average time to first token (s)   |    1.3709 |
++-----------------------------------+-----------+
+| Average time per output token (s) |    0.0115 |
++-----------------------------------+-----------+
+| Average inter-token latency (s)   |    0.0114 |
++-----------------------------------+-----------+
+| Average input tokens per request  | 1534.75   |
++-----------------------------------+-----------+
+| Average output tokens per request |  498.938  |
++-----------------------------------+-----------+
+2025-08-07 14:07:32,017 - evalscope - db_util.py - summary_result - 247 - INFO - 
+Percentile results:
++-------------+----------+---------+----------+-------------+--------------+---------------+----------------+---------------+
+| Percentiles | TTFT (s) | ITL (s) | TPOT (s) | Latency (s) | Input tokens | Output tokens | Output (tok/s) | Total (tok/s) |
++-------------+----------+---------+----------+-------------+--------------+---------------+----------------+---------------+
+|     10%     |  0.4163  | 0.0079  |  0.0097  |   6.8798    |     1223     |      478      |    69.4786     |   243.7101    |
+|     25%     |  0.8206  | 0.0086  |  0.0106  |   7.1418    |     1277     |      512      |    71.0626     |   265.3397    |
+|     50%     |  1.4377  | 0.0092  |  0.0116  |    7.166    |     1596     |      512      |    71.3315     |    293.437    |
+|     66%     |  1.6389  | 0.0096  |  0.012   |   7.1861    |     1602     |      512      |     71.466     |   299.2324    |
+|     75%     |  2.0496  | 0.0099  |  0.0128  |   7.1986    |     1891     |      512      |    71.6181     |   335.3348    |
+|     80%     |  2.0496  |  0.01   |  0.0128  |   7.1986    |     1891     |      512      |    71.6181     |   335.3348    |
+|     90%     |  2.2577  | 0.0105  |  0.0135  |   7.2051    |     1973     |      512      |     71.745     |   344.3344    |
+|     95%     |  2.4469  | 0.0109  |  0.014   |   7.2168    |     1996     |      512      |    71.8424     |   348.0955    |
+|     98%     |  2.4469  | 0.0122  |  0.014   |   7.2168    |     1996     |      512      |    71.8424     |   348.0955    |
+|     99%     |  2.4469  | 0.2021  |  0.014   |   7.2168    |     1996     |      512      |    71.8424     |   348.0955    |
++-------------+----------+---------+----------+-------------+--------------+---------------+----------------+---------------+
+2025-08-07 14:07:32,018 - evalscope - db_util.py - summary_result - 252 - INFO - Save the summary to: outputs/20250807_140653/Qwen2-7B-awq-w4a16/parallel_16_number_16
+2025-08-07 14:07:32,095 - evalscope - main.py - run_multi_benchmark - 60 - INFO - Sleeping for 5 seconds before the next run...
+2025-08-07 14:07:37,099 - evalscope - main.py - run_one_benchmark - 31 - INFO - Starting benchmark with args: 
+2025-08-07 14:07:37,100 - evalscope - main.py - run_one_benchmark - 32 - INFO - {
+    "model": "Qwen2-7B-awq-w4a16",
+    "model_id": "Qwen2-7B-awq-w4a16",
+    "attn_implementation": null,
+    "api": "openai",
+    "tokenizer_path": "/root/autodl-tmp/models/Qwen/Qwen2-7B-awq-w4a16",
+    "port": 8877,
+    "url": "http://127.0.0.1:8801/v1/chat/completions",
+    "headers": {},
+    "connect_timeout": 600,
+    "read_timeout": 600,
+    "api_key": null,
+    "no_test_connection": false,
+    "number": 32,
+    "parallel": 32,
+    "rate": -1,
+    "sleep_interval": 5,
+    "log_every_n_query": 10,
+    "debug": true,
+    "wandb_api_key": null,
+    "swanlab_api_key": "EOQCnWdMl5RFgMpUiQpTd",
+    "name": "Qwen2-7B-awq-w4a16",
+    "outputs_dir": "outputs/20250807_140653/Qwen2-7B-awq-w4a16/parallel_32_number_32",
+    "max_prompt_length": 2048,
+    "min_prompt_length": 1024,
+    "prefix_length": 64,
+    "prompt": null,
+    "query_template": null,
+    "apply_chat_template": true,
+    "image_width": 224,
+    "image_height": 224,
+    "image_format": "RGB",
+    "image_num": 1,
+    "dataset": "random",
+    "dataset_path": null,
+    "frequency_penalty": null,
+    "repetition_penalty": null,
+    "logprobs": null,
+    "max_tokens": 512,
+    "min_tokens": 256,
+    "n_choices": null,
+    "seed": 0,
+    "stop": null,
+    "stop_token_ids": null,
+    "stream": true,
+    "temperature": 0.0,
+    "top_p": null,
+    "top_k": null,
+    "extra_args": {}
+}
+2025-08-07 14:07:37,542 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:37,543 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": "hello"}], "model": "Qwen2-7B-awq-w4a16", "max_tokens": 51...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:37,575 - evalscope - http_client.py - test_connection - 110 - INFO - Test connection successful.
+2025-08-07 14:07:38,318 - evalscope - db_util.py - get_result_db_path - 125 - INFO - Save the data base to: outputs/20250807_140653/Qwen2-7B-awq-w4a16/parallel_32_number_32/benchmark_data.db
+2025-08-07 14:07:38,322 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,326 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,327 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,327 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,328 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,329 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,329 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,330 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,331 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,331 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,332 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,333 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,333 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,334 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,334 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,335 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,336 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,336 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,337 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,337 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,338 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,339 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,339 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,340 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,340 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,341 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,342 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,342 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,343 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,343 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,344 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,345 - evalscope - http_client.py - on_request_start - 65 - DEBUG - Starting request: <TraceRequestStartParams(method='POST', url=URL('http://127.0.0.1:8801/v1/chat/completions'), headers=<CIMultiDict('Content-Type': 'application/json', 'user-agent': 'modelscope_bench')>)>
+2025-08-07 14:07:38,347 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,348 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,348 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,348 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,349 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,349 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,349 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,350 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,350 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,350 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,351 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,351 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,351 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,352 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,352 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,352 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,352 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,352 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,353 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,353 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,353 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,353 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,353 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,354 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,354 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,354 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,354 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,355 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,355 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,355 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,355 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:38,355 - evalscope - http_client.py - on_request_chunk_sent - 77 - DEBUG - Request sent: <method='POST',  url=URL('http://127.0.0.1:8801/v1/chat/completions'), truncated_chunk='{"messages": [{"role": "user", "content": " arterial leveled tb Reno Barbar vidéos refrain superhero...ens": 256, "seed": 0, "stream": true, "stream_options": {"include_usage": true}, "temperature": 0.0}'>
+2025-08-07 14:07:49,904 - evalscope - benchmark.py - statistic_benchmark_metric - 153 - INFO - {
+  "Time taken for tests (s)": 11.5788,
+  "Number of concurrency": 32,
+  "Total requests": 10,
+  "Succeed requests": 10,
+  "Failed requests": 0,
+  "Output token throughput (tok/s)": 442.1868,
+  "Total token throughput (tok/s)": 1919.9718,
+  "Request throughput (req/s)": 0.8636,
+  "Average latency (s)": 11.5271,
+  "Average time to first token (s)": 1.1218,
+  "Average time per output token (s)": 0.0204,
+  "Average inter-token latency (s)": 0.0203,
+  "Average input tokens per request": 1711.1,
+  "Average output tokens per request": 512.0
+}
+2025-08-07 14:07:49,978 - evalscope - benchmark.py - statistic_benchmark_metric - 153 - INFO - {
+  "Time taken for tests (s)": 11.6511,
+  "Number of concurrency": 32,
+  "Total requests": 20,
+  "Succeed requests": 20,
+  "Failed requests": 0,
+  "Output token throughput (tok/s)": 878.8851,
+  "Total token throughput (tok/s)": 3764.1001,
+  "Request throughput (req/s)": 1.7166,
+  "Average latency (s)": 11.5665,
+  "Average time to first token (s)": 1.915,
+  "Average time per output token (s)": 0.0189,
+  "Average inter-token latency (s)": 0.0188,
+  "Average input tokens per request": 1680.8,
+  "Average output tokens per request": 512.0
+}
+2025-08-07 14:07:50,047 - evalscope - benchmark.py - statistic_benchmark_metric - 153 - INFO - {
+  "Time taken for tests (s)": 11.7213,
+  "Number of concurrency": 32,
+  "Total requests": 30,
+  "Succeed requests": 30,
+  "Failed requests": 0,
+  "Output token throughput (tok/s)": 1310.4398,
+  "Total token throughput (tok/s)": 5595.3903,
+  "Request throughput (req/s)": 2.5595,
+  "Average latency (s)": 11.6009,
+  "Average time to first token (s)": 2.7401,
+  "Average time per output token (s)": 0.0173,
+  "Average inter-token latency (s)": 0.0173,
+  "Average input tokens per request": 1674.1667,
+  "Average output tokens per request": 512.0
+}
+2025-08-07 14:07:50,406 - evalscope - db_util.py - summary_result - 239 - INFO - 
+Benchmarking summary:
++-----------------------------------+-----------+
+| Key                               |     Value |
++===================================+===========+
+| Time taken for tests (s)          |   11.7323 |
++-----------------------------------+-----------+
+| Number of concurrency             |   32      |
++-----------------------------------+-----------+
+| Total requests                    |   32      |
++-----------------------------------+-----------+
+| Succeed requests                  |   32      |
++-----------------------------------+-----------+
+| Failed requests                   |    0      |
++-----------------------------------+-----------+
+| Output token throughput (tok/s)   | 1396.49   |
++-----------------------------------+-----------+
+| Total token throughput (tok/s)    | 5998      |
++-----------------------------------+-----------+
+| Request throughput (req/s)        |    2.7275 |
++-----------------------------------+-----------+
+| Average latency (s)               |   11.6076 |
++-----------------------------------+-----------+
+| Average time to first token (s)   |    2.9033 |
++-----------------------------------+-----------+
+| Average time per output token (s) |    0.017  |
++-----------------------------------+-----------+
+| Average inter-token latency (s)   |    0.017  |
++-----------------------------------+-----------+
+| Average input tokens per request  | 1687.06   |
++-----------------------------------+-----------+
+| Average output tokens per request |  512      |
++-----------------------------------+-----------+
+2025-08-07 14:07:50,481 - evalscope - db_util.py - summary_result - 247 - INFO - 
+Percentile results:
++-------------+----------+---------+----------+-------------+--------------+---------------+----------------+---------------+
+| Percentiles | TTFT (s) | ITL (s) | TPOT (s) | Latency (s) | Input tokens | Output tokens | Output (tok/s) | Total (tok/s) |
++-------------+----------+---------+----------+-------------+--------------+---------------+----------------+---------------+
+|     10%     |  0.9162  | 0.0114  |  0.0129  |   11.5173   |     1241     |      512      |    43.7888     |   151.2287    |
+|     25%     |  1.7351  |  0.012  |  0.0149  |   11.5579   |     1488     |      512      |    43.9128     |   172.7516    |
+|     50%     |  2.9789  | 0.0125  |  0.0173  |   11.6178   |     1705     |      512      |    44.1005     |   191.1929    |
+|     66%     |  3.8172  | 0.0128  |  0.0185  |   11.6496   |     1887     |      512      |    44.2255     |   206.1965    |
+|     75%     |  4.2411  |  0.013  |  0.0196  |   11.6649   |     1970     |      512      |    44.3311     |   215.0414    |
+|     80%     |  4.4508  | 0.0131  |   0.02   |   11.6715   |     1991     |      512      |    44.3599     |   216.5493    |
+|     90%     |  5.0911  | 0.0136  |  0.0207  |   11.6925   |     2092     |      512      |    44.4548     |    222.791    |
+|     95%     |  5.3059  | 0.0141  |  0.0215  |   11.706    |     2097     |      512      |    44.5446     |    224.894    |
+|     98%     |  5.3987  | 0.2066  |  0.0219  |   11.7095   |     2104     |      512      |     44.594     |    227.595    |
+|     99%     |  5.3987  | 0.2117  |  0.0219  |   11.7095   |     2104     |      512      |     44.594     |    227.595    |
++-------------+----------+---------+----------+-------------+--------------+---------------+----------------+---------------+
+2025-08-07 14:07:50,483 - evalscope - db_util.py - summary_result - 252 - INFO - Save the summary to: outputs/20250807_140653/Qwen2-7B-awq-w4a16/parallel_32_number_32

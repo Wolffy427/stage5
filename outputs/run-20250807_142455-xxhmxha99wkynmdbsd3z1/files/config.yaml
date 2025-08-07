@@ -1,0 +1,204 @@
+api:
+  desc: ''
+  sort: 4
+  value: openai
+api_key:
+  desc: ''
+  sort: 11
+  value: null
+apply_chat_template:
+  desc: ''
+  sort: 28
+  value: true
+attn_implementation:
+  desc: ''
+  sort: 3
+  value: null
+connect_timeout:
+  desc: ''
+  sort: 9
+  value: 600
+dataset:
+  desc: ''
+  sort: 33
+  value: random
+dataset_path:
+  desc: ''
+  sort: 34
+  value: null
+debug:
+  desc: ''
+  sort: 18
+  value: true
+extra_args:
+  desc: ''
+  sort: 48
+  value: {}
+framework:
+  desc: ''
+  sort: 0
+  value: 📏evalscope
+frequency_penalty:
+  desc: ''
+  sort: 35
+  value: null
+headers:
+  desc: ''
+  sort: 8
+  value: {}
+image_format:
+  desc: ''
+  sort: 31
+  value: RGB
+image_height:
+  desc: ''
+  sort: 30
+  value: 224
+image_num:
+  desc: ''
+  sort: 32
+  value: 1
+image_width:
+  desc: ''
+  sort: 29
+  value: 224
+log_every_n_query:
+  desc: ''
+  sort: 17
+  value: 10
+logprobs:
+  desc: ''
+  sort: 37
+  value: null
+max_prompt_length:
+  desc: ''
+  sort: 23
+  value: 2048
+max_tokens:
+  desc: ''
+  sort: 38
+  value: 512
+min_prompt_length:
+  desc: ''
+  sort: 24
+  value: 1024
+min_tokens:
+  desc: ''
+  sort: 39
+  value: 256
+model:
+  desc: ''
+  sort: 1
+  value: Qwen2-7B
+model_id:
+  desc: ''
+  sort: 2
+  value: Qwen2-7B
+n_choices:
+  desc: ''
+  sort: 40
+  value: null
+name:
+  desc: ''
+  sort: 21
+  value: Qwen2-7B-kv-fp8
+no_test_connection:
+  desc: ''
+  sort: 12
+  value: false
+number:
+  desc: ''
+  sort: 13
+  value:
+  - 4
+  - 8
+  - 16
+  - 32
+outputs_dir:
+  desc: ''
+  sort: 22
+  value: outputs
+parallel:
+  desc: ''
+  sort: 14
+  value:
+  - 4
+  - 8
+  - 16
+  - 32
+port:
+  desc: ''
+  sort: 6
+  value: 8877
+prefix_length:
+  desc: ''
+  sort: 25
+  value: 64
+prompt:
+  desc: ''
+  sort: 26
+  value: null
+query_template:
+  desc: ''
+  sort: 27
+  value: null
+rate:
+  desc: ''
+  sort: 15
+  value: -1
+read_timeout:
+  desc: ''
+  sort: 10
+  value: 600
+repetition_penalty:
+  desc: ''
+  sort: 36
+  value: null
+seed:
+  desc: ''
+  sort: 41
+  value: 0
+sleep_interval:
+  desc: ''
+  sort: 16
+  value: 5
+stop:
+  desc: ''
+  sort: 42
+  value: null
+stop_token_ids:
+  desc: ''
+  sort: 43
+  value: null
+stream:
+  desc: ''
+  sort: 44
+  value: true
+swanlab_api_key:
+  desc: ''
+  sort: 20
+  value: EOQCnWdMl5RFgMpUiQpTd
+temperature:
+  desc: ''
+  sort: 45
+  value: 0.0
+tokenizer_path:
+  desc: ''
+  sort: 5
+  value: /root/autodl-tmp/models/Qwen/Qwen2-7B
+top_k:
+  desc: ''
+  sort: 47
+  value: null
+top_p:
+  desc: ''
+  sort: 46
+  value: null
+url:
+  desc: ''
+  sort: 7
+  value: http://127.0.0.1:8801/v1/chat/completions
+wandb_api_key:
+  desc: ''
+  sort: 19
+  value: null
